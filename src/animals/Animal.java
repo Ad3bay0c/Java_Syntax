@@ -20,13 +20,12 @@ public class Animal {
     }
 
     public void eat() {
-        System.out.println("Animal() Eat");
+        System.out.println("Animal.Eat()");
     }
 
-    public void move() {
-        System.out.println("Animal() Move");
+    public void move(int speed) {
+        System.out.println("Animal Move at speed " + speed);
     }
-
     public int getBrain() {
         return brain;
     }

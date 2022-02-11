@@ -15,4 +15,23 @@ public class Dog extends Animal{
         this.legs = legs;
         this.coat = coat;
     }
+
+    public void chew() {
+        System.out.println("Dog.Chew() chew called");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Dog.Eat()");
+        chew();
+        super.eat();
+    }
+
+    public void walk() {
+        System.out.println("Dog.Walk() called");
+    }
+
+    public void run() {
+        System.out.println("Dog.Run()");
+    }
 }
