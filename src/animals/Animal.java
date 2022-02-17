@@ -1,4 +1,4 @@
-package src;
+package src.animals;
 
 public class Animal {
     private String name;
