@@ -1,4 +1,4 @@
-package src;
+package src.animals;
 
 public class Fish extends Animal{
     private int gills;
