@@ -1,2 +1,4 @@
-package src.linkedList;public class Main {
+package src.linkedList;
+
+public class Main {
 }
