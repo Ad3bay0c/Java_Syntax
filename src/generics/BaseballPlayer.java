@@ -1,2 +1,9 @@
-package src.generics;public class BaseballPlayer {
+package src.generics;
+
+public class BaseballPlayer extends Player{
+    public BaseballPlayer(String name) {
+        super(name);
+    }
+
+
 }
