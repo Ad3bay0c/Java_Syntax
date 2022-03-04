@@ -1,2 +1,9 @@
-package src.threads;public class AnotherThread {
+package src.threads;
+
+public class AnotherThread extends Thread{
+
+    @Override
+    public void run() {
+        System.out.println("Hello from another thread");
+    }
 }
