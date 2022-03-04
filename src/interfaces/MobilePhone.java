@@ -1,6 +1,6 @@
 package src.interfaces;
 
-public class MobilePhone implements ITelephone{
+public class MobilePhone implements ITelephone {
     private int myNumber;
     private boolean isRinging;
     private boolean isOn = false;
@@ -18,7 +18,7 @@ public class MobilePhone implements ITelephone{
     @Override
     public void dial(int phoneNumber) {
         if (isOn) {
-            System.out.println("Now calling "+phoneNumber+" on desk phone");
+            System.out.println("Now calling " + phoneNumber + " on desk phone");
             isRinging = true;
         } else {
             System.out.println("Phone is switched off");
