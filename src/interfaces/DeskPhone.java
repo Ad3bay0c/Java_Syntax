@@ -15,7 +15,7 @@ public class DeskPhone implements ITelephone {
 
     @Override
     public void dial(int phoneNumber) {
-        System.out.println("Now calling "+phoneNumber+" on desk phone");
+        System.out.println("Now calling " + phoneNumber + " on desk phone");
         isRinging = true;
     }
 
