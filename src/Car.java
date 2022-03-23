@@ -15,10 +15,12 @@ public class Car {
     public Car() {
         this("Default Car Model");
     }
+
     private Car(String model) {
         this.model = model;
         System.out.println(this.model);
     }
+
     public void setDoors(int doors) {
         this.doors = doors;
     }
@@ -61,9 +63,11 @@ public class Car {
     public void setModel(String model) {
         this.model = model;
     }
+
     public String getModel() {
         return this.model;
     }
+
     public int getDoors() {
         return this.doors;
     }
