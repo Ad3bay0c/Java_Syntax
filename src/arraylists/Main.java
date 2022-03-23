@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static GroceryList groceryList = new GroceryList();
+
     public static void main(String[] args) {
         boolean quit = false;
         int choice = 0;
         printInstructions();
-        while(!quit) {
+        while (!quit) {
             System.out.println("Enter your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine();
@@ -71,7 +72,7 @@ public class Main {
         groceryList.removeGroceryItem(itemName);
     }
 
-    public static void searchItem(){
+    public static void searchItem() {
         System.out.print("Enter item to search for: ");
         String searchItem = scanner.nextLine();
         if (groceryList.onFile(searchItem)) {
