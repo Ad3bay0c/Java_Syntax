@@ -37,7 +37,7 @@ public class Main {
 
     public static double getAverage(int[] values) {
         int sum = 0;
-        for (int i=0; i < values.length; i++) {
+        for (int i = 0; i < values.length; i++) {
             sum += values[i];
         }
         return (double) sum / (double) values.length;
@@ -45,7 +45,7 @@ public class Main {
 
     public static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            System.out.printf("Element %d : %d\n",i+1, array[i]);
+            System.out.printf("Element %d : %d\n", i + 1, array[i]);
         }
     }
 
@@ -53,12 +53,12 @@ public class Main {
         boolean flag = true;
         while (flag) {
             flag = false;
-            for (int i = 0; i < values.length-1; i++) {
-                if (values[i] < values[i+1]) {
+            for (int i = 0; i < values.length - 1; i++) {
+                if (values[i] < values[i + 1]) {
                     flag = true;
                     int temp = values[i];
-                    values[i] = values[i+1];
-                    values[i+1] = temp;
+                    values[i] = values[i + 1];
+                    values[i + 1] = temp;
                 }
             }
         }
