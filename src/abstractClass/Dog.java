@@ -1,6 +1,6 @@
 package src.abstractClass;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     public Dog(String name) {
         super(name);
     }
